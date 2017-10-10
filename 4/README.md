@@ -58,5 +58,5 @@
 
 ---
 
-대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt)에서 어느 정도 해소가 될 것으로 기대합니다.
+대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
 만약 이 행사에 처음 접근했다면, 위 글도 참고 부탁 드립니다.
