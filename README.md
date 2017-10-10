@@ -55,4 +55,4 @@ AWS의 Serverless hackthon으로 진행되었습니다. 관련 내용은 다음 위치에서 확인 가�
 
 ## 4회
 
-[lacti](https://github.com/lacti)의 집에서 개최되었습니다. 자세한 내용은 4회 directory를 참고 바랍니다.
+[lacti](https://github.com/lacti)의 집에서 개최되었습니다. 자세한 내용은 [4회 directory](https://github.com/lacti/yyt/tree/master/4)를 참고 바랍니다.
