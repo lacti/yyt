@@ -51,7 +51,7 @@ AWS의 Serverless hackthon으로 진행되었습니다. 관련 내용은 다음 위치에서 확인 가�
 
 ## 3회
 
-[대리님](https://github.com/hyunjong-lee)의 집에서 개최되었습니다. 자세한 내용은 언젠가 정리될 예정입니다.
+[대리님](https://github.com/hyunjong-lee)의 집에서 개최되었습니다. 자세한 내용은 [3회 README](https://github.com/lacti/yyt/blob/master/3/README.md)를 참고 바랍니다.
 
 ## 4회
 
