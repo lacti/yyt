@@ -1,3 +1,5 @@
 # Summary
 
-º» »çÀÌÆ®°¡ ±¸ÃàµÇ±â ÀüÀÇ Çà»ç¿´À¸¹Ç·Î, ´ç½Ã ¸ðÁý Æ÷½ºÅÍ ÀÚ·á·Î ³»¿ëÀ» °¥À½ÇÑ´Ù.
+ë³¸ ì‚¬ì´íŠ¸ê°€ êµ¬ì¶•ë˜ê¸° ì „ì˜ í–‰ì‚¬ì˜€ìœ¼ë¯€ë¡œ, ë‹¹ì‹œ ëª¨ì§‘ í¬ìŠ¤í„° ìžë£Œë¡œ ë‚´ìš©ì„ ê°ˆìŒí•œë‹¤.
+
+![poster](https://github.com/lacti/yyt/blob/master/3/poster.png)
