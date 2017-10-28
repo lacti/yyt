@@ -58,6 +58,11 @@
 
 원하는 가장 편한 방법을 택해서 진행하면 됩니다. 어떤 방법을 택할 지를 [#1](https://github.com/lacti/yyt/issues/1) 에 참가 신청과 함께 남겨주시길 바랍니다.
 
+## Result
+
+* Sphere Battle: https://github.com/gasbank/laidoff
+* ...
+
 ---
 
 대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
