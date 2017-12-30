@@ -55,7 +55,7 @@
 
 ## Result
 
-* 행사전
+- SotA: https://github.com/lacti/sota
 ---
 
 대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
