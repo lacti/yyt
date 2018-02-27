@@ -37,7 +37,8 @@
 ## Participation
 
 공간이 협소하기 때문에 on site 모임은 최대 10명 정도의 인원으로 제한하게 되는 점 양해 부탁 드립니다.
-참가를 원한다면 [#4](https://github.com/lacti/yyt/issues/4) 에 comment 부탁 드립니다.
+참가를 원한다면 다음 google form을 이용해주세요.
+* https://github.com/lacti/yyt/edit/master/6/README.md
 
 ## Team
 
