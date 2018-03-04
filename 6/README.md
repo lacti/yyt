@@ -1,3 +1,5 @@
+![poster](https://github.com/lacti/yyt/blob/master/6/poster.png)
+
 # Summary
 
 | 항목 | 내용 |
