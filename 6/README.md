@@ -52,7 +52,8 @@
 
 ## Result
 
-- ..
+- 1팀: 운송왕 이운송 (https://github.com/lacti/laidoff-server, https://github.com/gasbank/laidoff)
+- 2팀: ...
 
 ---
 
