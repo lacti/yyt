@@ -1,62 +1,66 @@
 # yyt
 
-Yingyeo-thonÀ¸·Î À×¿©µéÀÌ ¸ð¿©¼­ ÁøÇàÇÏ´Â ÇØÄ¿ÅæÀÔ´Ï´Ù.
-AWS serverless hackathonÀÌ °³ÃÖµÇÁö ¾Ê¾Æ È±±è¿¡ ¿­¸° ÇØÄ¿ÅæÀÌ¶ó´Â ´À³¦À» Áö¿ï ¼ö ¾øÁö¸¸ ±×·±°Ç ÀÌÁ¦ ¾Æ¹«·¡µµ »ó°ü ¾ø½À´Ï´Ù.
+Yingyeo-thonìœ¼ë¡œ ìž‰ì—¬ë“¤ì´ ëª¨ì—¬ì„œ ì§„í–‰í•˜ëŠ” í•´ì»¤í†¤ìž…ë‹ˆë‹¤.
+AWS serverless hackathonì´ ê°œìµœë˜ì§€ ì•Šì•„ í™§ê¹€ì— ì—´ë¦° í•´ì»¤í†¤ì´ë¼ëŠ” ëŠë‚Œì„ ì§€ìš¸ ìˆ˜ ì—†ì§€ë§Œ ê·¸ëŸ°ê±´ ì´ì œ ì•„ë¬´ëž˜ë„ ìƒê´€ ì—†ìŠµë‹ˆë‹¤.
 
-*¾îµð±îÁö °¡³ª ÇØº¾½Ã´Ù.*
+*ì–´ë””ê¹Œì§€ ê°€ë‚˜ í•´ë´…ì‹œë‹¤.*
 
-# ÁøÇà ¹æ½Ä
+# ì§„í–‰ ë°©ì‹
 
-±×·± °Ç ¾ø½À´Ï´Ù.
-°¢ÀÚ Àç·® °Í, ÇÏ°í ½ÍÀº °ÍÀ» ¾Ë¾Æ¼­ Àß ÁøÇàÇÕ´Ï´Ù.
+ê·¸ëŸ° ê±´ ì—†ìŠµë‹ˆë‹¤.
+ê°ìž ìž¬ëŸ‰ ê²ƒ, í•˜ê³  ì‹¶ì€ ê²ƒì„ ì•Œì•„ì„œ ìž˜ ì§„í–‰í•©ë‹ˆë‹¤.
 
-ÃÖ¼ÒÇÑÀÇ °¡ÀÌµå¶óÀÎ Á¤µµ´Â Á¤ÇØº¼ ¼ö ÀÖÀ» °Í °°Àºµ¥ ¾Ë¾Æ¼­ Àß ÇØº¾½Ã´Ù.
+ìµœì†Œí•œì˜ ê°€ì´ë“œë¼ì¸ ì •ë„ëŠ” ì •í•´ë³¼ ìˆ˜ ìžˆì„ ê²ƒ ê°™ì€ë° ì•Œì•„ì„œ ìž˜ í•´ë´…ì‹œë‹¤.
 
-## ÁÖÃÖÀÚ
+## ì£¼ìµœìž
 
-- Àå¼Ò¸¦ ¸¶·ÃÇÏ°í »ç¶÷À» ¸ðÀ¸¼¼¿ä. ¿©ÀÇÄ¡ ¾Ê´Ù¸é ¿Â¶óÀÎÀ¸·Î ÇØµµ ÁÁ½À´Ï´Ù.
-- Æò°¡ ±âÁØÀ» Á¤¸®ÇØ¼­ °øÀ¯ÇÕ´Ï´Ù. Æò°¡´Â ´Ù°°ÀÌ ÇÏ´Â °ÍÀÌÁö¸¸ ±âÁØÀº ÁÖÃÖÃø¿¡¼­ Á¤ÇØÁÖ´Â°Ô ´ëÈ¸ÀÇ ÄÁ¼ÁÀ» À¯ÁöÇÏ´Âµ¥ ÁÁÀ» °Í °°½À´Ï´Ù.
+- ìž¥ì†Œë¥¼ ë§ˆë ¨í•˜ê³  ì‚¬ëžŒì„ ëª¨ìœ¼ì„¸ìš”. ì—¬ì˜ì¹˜ ì•Šë‹¤ë©´ ì˜¨ë¼ì¸ìœ¼ë¡œ í•´ë„ ì¢‹ìŠµë‹ˆë‹¤.
+- í‰ê°€ ê¸°ì¤€ì„ ì •ë¦¬í•´ì„œ ê³µìœ í•©ë‹ˆë‹¤. í‰ê°€ëŠ” ë‹¤ê°™ì´ í•˜ëŠ” ê²ƒì´ì§€ë§Œ ê¸°ì¤€ì€ ì£¼ìµœì¸¡ì—ì„œ ì •í•´ì£¼ëŠ”ê²Œ ëŒ€íšŒì˜ ì»¨ì…‰ì„ ìœ ì§€í•˜ëŠ”ë° ì¢‹ì„ ê²ƒ ê°™ìŠµë‹ˆë‹¤.
 
-Æò°¡ ±âÁØÀÌ ¿À¶ô°¡¶ôÇÏ¿© Âü°¡ÀÚµéÀº È¥¶õÀ» °ÞÀ»¼öµµ ÀÖÁö¸¸, ¾îÂ÷ÇÇ Âü°¡ÀÚ°¡ °ÅÀÇ ¾øÀ¸¹Ç·Î º° ¹®Á¦´Â ¾øÀ» °Í °°½À´Ï´Ù.
-´Ù¾çÇÑ ±âÁØÀÌ ³­¹«ÇÏ¿© ÁÖÃÖÀÚ¸¶´Ù ´ëÈ¸ÀÇ ¼º°ÝÀÌ °áÁ¤µÇ°í, ±× ¾È¿¡¼­ Á¤½Å¾ø´Â Àç¹Ì¸¦ À×¿©·ÂÀ¸·Î ½ÂÈ­ÇÏ´Â ´ëÈ¸°¡ µÇ¸é ´õ¿í È¥¶õ½º·´°Ô Àç¹ÌÀÖÁö ¾ÊÀ»±î ±â´ëÇÕ´Ï´Ù.
+í‰ê°€ ê¸°ì¤€ì´ ì˜¤ë½ê°€ë½í•˜ì—¬ ì°¸ê°€ìžë“¤ì€ í˜¼ëž€ì„ ê²ªì„ìˆ˜ë„ ìžˆì§€ë§Œ, ì–´ì°¨í”¼ ì°¸ê°€ìžê°€ ê±°ì˜ ì—†ìœ¼ë¯€ë¡œ ë³„ ë¬¸ì œëŠ” ì—†ì„ ê²ƒ ê°™ìŠµë‹ˆë‹¤.
+ë‹¤ì–‘í•œ ê¸°ì¤€ì´ ë‚œë¬´í•˜ì—¬ ì£¼ìµœìžë§ˆë‹¤ ëŒ€íšŒì˜ ì„±ê²©ì´ ê²°ì •ë˜ê³ , ê·¸ ì•ˆì—ì„œ ì •ì‹ ì—†ëŠ” ìž¬ë¯¸ë¥¼ ìž‰ì—¬ë ¥ìœ¼ë¡œ ìŠ¹í™”í•˜ëŠ” ëŒ€íšŒê°€ ë˜ë©´ ë”ìš± í˜¼ëž€ìŠ¤ëŸ½ê²Œ ìž¬ë¯¸ìžˆì§€ ì•Šì„ê¹Œ ê¸°ëŒ€í•©ë‹ˆë‹¤.
 
-¸¸¾à on stie·Î ÁøÇàÇÒ °æ¿ì, ÁÖÃÖÃø¿¡ ¹«¸®°¡ µÇÁö ¾Ê´Â ¼±¿¡¼­ ÀûÀýÈ÷ ´ëÈ¸ ½Ã°£À» À¯ÁöÇÏµµ·Ï ÇÕ´Ï´Ù.
+ë§Œì•½ on stieë¡œ ì§„í–‰í•  ê²½ìš°, ì£¼ìµœì¸¡ì— ë¬´ë¦¬ê°€ ë˜ì§€ ì•ŠëŠ” ì„ ì—ì„œ ì ì ˆížˆ ëŒ€íšŒ ì‹œê°„ì„ ìœ ì§€í•˜ë„ë¡ í•©ë‹ˆë‹¤.
 
-¾îÂ÷ÇÇ À×¿©·ÂÀ¸·Î ÁøÇàÇÏ´Â ´ëÈ¸ÀÌ±â ¶§¹®¿¡,
-- ¹Ì¸® ÁØºñÇØ¿Í¼­ º¸¿©¸¸ ÁÖ¾îµµ ÁÁ°í
-- ¾Æ´Ï¸é ´ëÈ¸ ½Ã°£ºÎÅÍ ¸¸µé¾î¼­ Å¾À» ½×¾Æµµ ÁÁ½À´Ï´Ù.
+ì–´ì°¨í”¼ ìž‰ì—¬ë ¥ìœ¼ë¡œ ì§„í–‰í•˜ëŠ” ëŒ€íšŒì´ê¸° ë•Œë¬¸ì—,
+- ë¯¸ë¦¬ ì¤€ë¹„í•´ì™€ì„œ ë³´ì—¬ë§Œ ì£¼ì–´ë„ ì¢‹ê³ 
+- ì•„ë‹ˆë©´ ëŒ€íšŒ ì‹œê°„ë¶€í„° ë§Œë“¤ì–´ì„œ íƒ‘ì„ ìŒ“ì•„ë„ ì¢‹ìŠµë‹ˆë‹¤.
 
-ÀÌ´Â ÁÖÃÖÀÚ°¡ ¸¶À½´ë·Î ÁöÁ¤ÇÏ¸é µË´Ï´Ù.
+ì´ëŠ” ì£¼ìµœìžê°€ ë§ˆìŒëŒ€ë¡œ ì§€ì •í•˜ë©´ ë©ë‹ˆë‹¤.
 
-## Âü°¡ÀÚ
+## ì°¸ê°€ìž
 
-- °á°ú¸¦ Àß Á¤¸®ÇØ¼­ github¿¡ ¿Ã·Á³õ°í ±× °á°ú¸¦ ÀÌ ÂÊ¿¡ ¿¬°áÇÏ°Å³ª
-- È¤Àº ¾Æ¿¹ ¿©±â´Ù°¡ PRÀ» º¸³»¼­ ÄÚµå¸¦ ÇÑ °÷¿¡ ¿Ã·Á³õ°Å³ª
-- ¾Æ´Ï¸é Èæ¿ª»ç ¹æÁö¸¦ À§ÇØ ¿µ¿øÈ÷ ¾îµÒ ¼Ó¿¡ ¹¯¾î¹ö¸®¼¼¿ä.
+- ê²°ê³¼ë¥¼ ìž˜ ì •ë¦¬í•´ì„œ githubì— ì˜¬ë ¤ë†“ê³  ê·¸ ê²°ê³¼ë¥¼ ì´ ìª½ì— ì—°ê²°í•˜ê±°ë‚˜
+- í˜¹ì€ ì•„ì˜ˆ ì—¬ê¸°ë‹¤ê°€ PRì„ ë³´ë‚´ì„œ ì½”ë“œë¥¼ í•œ ê³³ì— ì˜¬ë ¤ë†“ê±°ë‚˜
+- ì•„ë‹ˆë©´ í‘ì—­ì‚¬ ë°©ì§€ë¥¼ ìœ„í•´ ì˜ì›ížˆ ì–´ë‘  ì†ì— ë¬»ì–´ë²„ë¦¬ì„¸ìš”.
 
-¸¶Ä¡ ¾öÃ» Àß ¸¸µç °ÍÃ³·³, ÃÖ¼ÒÇÑÀÇ ½ºÅ©¸°¼¦°ú ¼³°èµµ¸¸ ³²±â°í ÄÚµå¸¦ Æó±âÇÏ´Â °Íµµ ÃßÃµÇÏ´Â ¹æ¹ýÀÔ´Ï´Ù.
+ë§ˆì¹˜ ì—„ì²­ ìž˜ ë§Œë“  ê²ƒì²˜ëŸ¼, ìµœì†Œí•œì˜ ìŠ¤í¬ë¦°ìƒ·ê³¼ ì„¤ê³„ë„ë§Œ ë‚¨ê¸°ê³  ì½”ë“œë¥¼ íê¸°í•˜ëŠ” ê²ƒë„ ì¶”ì²œí•˜ëŠ” ë°©ë²•ìž…ë‹ˆë‹¤.
 
-## ´ÙÇÔ²²
+## ë‹¤í•¨ê»˜
 
-ÁÖÀüºÎ¸®¸¦ Àû´çÈ÷ ÁØºñÇÏ°í ÀûÀýÇÏ°Ô ¹äÀ» ¾Ë¾Æ¼­ Àß ¸Ô½À´Ï´Ù.
+ì£¼ì „ë¶€ë¦¬ë¥¼ ì ë‹¹ížˆ ì¤€ë¹„í•˜ê³  ì ì ˆí•˜ê²Œ ë°¥ì„ ì•Œì•„ì„œ ìž˜ ë¨¹ìŠµë‹ˆë‹¤.
 
-# ÀÌ·Â
+# ì´ë ¥
 
-## 1È¸, 2È¸
+## 1íšŒ, 2íšŒ
 
-AWSÀÇ Serverless hackthonÀ¸·Î ÁøÇàµÇ¾ú½À´Ï´Ù. °ü·Ã ³»¿ëÀº ´ÙÀ½ À§Ä¡¿¡¼­ È®ÀÎ °¡´ÉÇÕ´Ï´Ù.
+AWSì˜ Serverless hackthonìœ¼ë¡œ ì§„í–‰ë˜ì—ˆìŠµë‹ˆë‹¤. ê´€ë ¨ ë‚´ìš©ì€ ë‹¤ìŒ ìœ„ì¹˜ì—ì„œ í™•ì¸ ê°€ëŠ¥í•©ë‹ˆë‹¤.
 
 - http://hyunjong-lee.github.io/tech/2015/09/16/AWS-Lambda-Serverless-Turn-Game.html
 - http://hyunjong-lee.github.io/tech/2016/09/25/Gaming-on-AWS-Hackathon-2nd.html
 
-## 3È¸
+## 3íšŒ
 
-[´ë¸®´Ô](https://github.com/hyunjong-lee)ÀÇ Áý¿¡¼­ °³ÃÖµÇ¾ú½À´Ï´Ù. ÀÚ¼¼ÇÑ ³»¿ëÀº [3È¸ README](https://github.com/lacti/yyt/blob/master/3/README.md)¸¦ Âü°í ¹Ù¶ø´Ï´Ù.
+[ëŒ€ë¦¬ë‹˜](https://github.com/hyunjong-lee)ì˜ ì§‘ì—ì„œ ê°œìµœë˜ì—ˆìŠµë‹ˆë‹¤. ìžì„¸í•œ ë‚´ìš©ì€ [3íšŒ README](https://github.com/lacti/yyt/blob/master/3/README.md)ë¥¼ ì°¸ê³  ë°”ëžë‹ˆë‹¤.
 
-## 4È¸
+## 4íšŒ
 
-[lacti](https://github.com/lacti)ÀÇ Áý¿¡¼­ °³ÃÖµÇ¾ú½À´Ï´Ù. ÀÚ¼¼ÇÑ ³»¿ëÀº [4È¸ README](https://github.com/lacti/yyt/blob/master/4/README.md)¸¦ Âü°í ¹Ù¶ø´Ï´Ù.
+[lacti](https://github.com/lacti)ì˜ ì§‘ì—ì„œ ê°œìµœë˜ì—ˆìŠµë‹ˆë‹¤. ìžì„¸í•œ ë‚´ìš©ì€ [4íšŒ README](https://github.com/lacti/yyt/blob/master/4/README.md)ë¥¼ ì°¸ê³  ë°”ëžë‹ˆë‹¤.
 
-## 5È¸
+## 5íšŒ
 
-[gasbank](https://github.com/gasbank)ÀÇ Áý¿¡¼­ °³ÃÖÇÕ´Ï´Ù. ÀÚ¼¼ÇÑ ³»¿ëÀº [5È¸ README](https://github.com/lacti/yyt/blob/master/5/README.md)¸¦ Âü°í ¹Ù¶ø´Ï´Ù.
+[gasbank](https://github.com/gasbank)ì˜ ì§‘ì—ì„œ ê°œìµœí•©ë‹ˆë‹¤. ìžì„¸í•œ ë‚´ìš©ì€ [5íšŒ README](https://github.com/lacti/yyt/blob/master/5/README.md)ë¥¼ ì°¸ê³  ë°”ëžë‹ˆë‹¤.
+
+## 5íšŒ
+
+[í‘ìš´ì†](https://github.com/dplusic)ì˜ ì§‘ì—ì„œ ê°œìµœí•©ë‹ˆë‹¤. ìžì„¸í•œ ë‚´ìš©ì€ [6íšŒ README](https://github.com/lacti/yyt/blob/master/6/README.md)ë¥¼ ì°¸ê³  ë°”ëžë‹ˆë‹¤.
