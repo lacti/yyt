@@ -64,3 +64,7 @@ AWS의 Serverless hackthon으로 진행되었습니다. 관련 내용은 다음 
 ## 6회
 
 [흑운손](https://github.com/dplusic)의 집에서 개최합니다. 자세한 내용은 [6회 README](https://github.com/lacti/yyt/blob/master/6/README.md)를 참고 바랍니다.
+
+## 7회
+
+[gasbank](https://github.com/gasbank)의 집에서 개최합니다. 자세한 내용은 [7회 README](https://github.com/lacti/yyt/blob/master/7/README.md)를 참고 바랍니다.
