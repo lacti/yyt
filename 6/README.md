@@ -53,7 +53,7 @@
 ## Result
 
 - 1팀: 운송왕 이운송 (https://github.com/lacti/laidoff-server, https://github.com/gasbank/laidoff)
-- 2팀: KeyboardDefender (https://github.com/kjyong1983/KeyboardDefender)
+- 2팀: KeyboardDefender (https://github.com/kjyong1983/KeyboardDefender/releases/tag/yyt6)
 
 ---
 
