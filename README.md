@@ -68,3 +68,7 @@ AWS의 Serverless hackthon으로 진행되었습니다. 관련 내용은 다음 
 ## 7회
 
 [gasbank](https://github.com/gasbank)의 집에서 개최합니다. 자세한 내용은 [7회 README](https://github.com/lacti/yyt/blob/master/7/README.md)를 참고 바랍니다.
+
+## 8회
+
+[lacti](https://github.com/lacti)의 회사에서 개최합니다. 자세한 내용은 [8회 README](https://github.com/lacti/yyt/blob/master/8/README.md)를 참고 바랍니다.
