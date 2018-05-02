@@ -47,6 +47,25 @@
 
 ## Result
 
+### 운송왕 이운송
+
+- https://github.com/gasbank/laidoff
+- https://github.com/gasbank/sea-server
+- https://github.com/lacti/laidoff-server
+
+### 시스템 설계
+
+- client에서는 가급적이면 서버에 stateless한 rest api 요청으로 동작을 진행하고,
+- 각 배들의 상황을 UDP로 broadcasting되는 좌표 정보를 통해 인지하고,
+- UI를 html에 담아서 client에 전달하여 개발/확장이 쉽도록 하고,
+- 실제 크기에 가까운 고해상도의 바다 이미지를 토대로 게임을 진행할 수 있도록 합니다.
+
+### 당면 과제
+
+- 지도가 너무 크기 때문에 길찾기 등에 많은 자원이 필요하게 됩니다. 이 부분을 최적화합니다.
+- popup 등의 UI 조차도 전체 html을 갱신하기 때문에 UI 통신에 소모되는 네트워크 자원이 많습니다. 이 부분을 최적화합니다.
+- 위치 갱신을 위한 UDP 통신 서버와 Rest API를 위한 서버가 분리되어 있어 이 부분에 대한 통합과, 개발을 편하게 할 수 있는 시스템 개선을 진행합니다.
+
 ---
 
 대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
