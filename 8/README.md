@@ -50,7 +50,7 @@
 
 ## Result
 
-### 가즈아 (https://github.com/hyunjong-lee/ai)
+### 가즈아 (https://github.com/hyunjong-lee/gazzzza)
 
 - 6명이 즐기는 게임
 - 각자 HP 100이 있으며 칼 혹은 펜으로 특정 상대를 공격할 수 있음
