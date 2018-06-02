@@ -50,6 +50,20 @@
 
 ## Result
 
+### 가즈아 (https://github.com/hyunjong-lee/ai)
+
+- 6명이 즐기는 게임
+- 각자 HP 100이 있으며 칼 혹은 펜으로 특정 상대를 공격할 수 있음
+- 칼은 20의 데미지, 펜은 10의 데미지를 입힘, 방어는 무적 방어
+- 이 때, 펜은 칼보다 강하므로 1:1 맞대결 상황에서는 펜이 공격이 들어가고 칼은 무효화
+- 무적 방어에 대한 기획은 보강이 필요하며, 칼과 펜의 상성에 대해 좀 더 연구하면 재미를 추구할 수 있을 것으로 보임
+- 웹으로 뚝딱뚝딱 만들었는데 제대로 된 클라이언트로 작업이 필요해 보임
+- 아래는 실헹화면
+- ![enter](https://github.com/lacti/yyt/blob/master/8/images/enter.png)
+- ![play](https://github.com/lacti/yyt/blob/master/8/images/play.png)
+- ![admin](https://github.com/lacti/yyt/blob/master/8/images/admin.png)
+
+
 ---
 
 대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
