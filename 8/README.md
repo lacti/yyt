@@ -63,6 +63,19 @@
 - ![play](https://github.com/lacti/yyt/blob/master/8/images/play.png)
 - ![admin](https://github.com/lacti/yyt/blob/master/8/images/admin.png)
 
+### 운송왕 이운송 (https://github.com/lache/lo)
+
+- 초기 목표: 게임 내 한글 채팅 기능 추가
+- 문제점: 게임 실행되는 동안 내내 IME 사용 불가 상태로, 한영 변환이 불가함
+- 관찰1: 빈 Win32 프로그램 생성 후 IME 사용이 정상적으로 가능함을 확인
+- 관찰2: 빈 GLFW 프로그램 생성 후 IME 사용이 정상적으로 가능함을 확인
+- 시도1: GLFW 최신 업그레이드
+- 시도1 결과: 문제가 해결되는 컴퓨터가 있고, 해결되지 않는 컴퓨터가 있음...
+- 시도2: 프로젝트 초기화 단계의 처리를 한줄씩 삭제해나가며 점점 빈 GLFW 프로그램으로 바꿔봄
+- 시도2 결과: CoInitializeEx() 두 번째 인자를 'COINIT_MULTITHREADED'에서 'COINIT_APARTMENTTHREADED'로 바꾸니 문제 해결됨
+- 총평: 왜 해결됐는지는 모르겠지만 여튼 해결됐음
+- 후기: 간만의 삽질은 달콤했다......
+- ![ttlchat](https://github.com/lacti/yyt/blob/master/8/images/ttlchat.png)
 
 ---
 
