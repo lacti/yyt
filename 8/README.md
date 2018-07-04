@@ -77,6 +77,30 @@
 - 후기: 간만의 삽질은 달콤했다......
 - ![ttlchat](https://github.com/lacti/yyt/blob/master/8/images/ttlchat.png)
 
+### network two tracks (https://github.com/lacti/ntt)
+
+#### network model
+
+transactional한 요청을 처리하는 rpc (over tcp)와 broadcasting을 담당하는 udp를 적절히 사용하여 간단한 이동 동기화 및 거래 정도가 수행되는 게임을 만드는 것이 목표였습니다. 하지만,
+
+- grpc webclient가 생각보다 잘 동작하지 않았고, (서버를 go로 만들어야 했습니다.)
+- web browser에서 udp 통신이 생각보다 간단하지 않았습니다. (webRTC로 어떻게 하겠다는 spec만 봤습니다.)
+
+때문에 이걸로 충분히 삽질하다가 3시간만에 포기하고 그냥 `socket.io`를 사용해서 위치 동기화만 구현했습니다.
+
+#### deployment
+
+web으로 만들었기 때문에 배포는 상대적으로 간단합니다.
+
+- [front-end](https://github.com/lacti/ntt/tree/master/web)의 pack 결과를 [server](https://github.com/lacti/ntt/tree/master/server)가 serving하고 이를 [docker](https://github.com/lacti/ntt/blob/master/Dockerfile)로 묶어서 [docker-compose](https://github.com/lacti/ntt/blob/master/docker-compose.yml)로 관리할 수 있도록 합니다.
+- 이에 대한 [electron client](https://github.com/lacti/ntt/tree/master/desktop)를 만들고 이를 [CI에서 배포하도록](https://github.com/lacti/ntt/blob/master/.travis.yml) 설정합니다. 단, wine 환경이 필요하므로 이에 대한 [docker image](https://github.com/lacti/docker-node-env)를 만들어둡니다.
+
+[ntt](https://github.com/lacti/yyt/blob/master/8/images/ntt.png)
+
+#### 후기
+
+와서 기술 실험을 하는 것도 재미있는 일이지만, 짧은 시간 내에 기술 탐구와 구현을 모두 수행하기는 쉽지 않습니다. 따라서 행사 전 어느 정도 기술의 PoC를 수행해놓고 당일에는 그 기술을 엮어서 결과물을 만들어내는 것에 더 집중하면 조금 더 재미있는 결과를 만들어낼 수 있지 않을까 기대하고 있습니다.
+
 ---
 
 대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
