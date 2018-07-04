@@ -95,7 +95,7 @@ web으로 만들었기 때문에 배포는 상대적으로 간단합니다.
 - [front-end](https://github.com/lacti/ntt/tree/master/web)의 pack 결과를 [server](https://github.com/lacti/ntt/tree/master/server)가 serving하고 이를 [docker](https://github.com/lacti/ntt/blob/master/Dockerfile)로 묶어서 [docker-compose](https://github.com/lacti/ntt/blob/master/docker-compose.yml)로 관리할 수 있도록 합니다.
 - 이에 대한 [electron client](https://github.com/lacti/ntt/tree/master/desktop)를 만들고 이를 [CI에서 배포하도록](https://github.com/lacti/ntt/blob/master/.travis.yml) 설정합니다. 단, wine 환경이 필요하므로 이에 대한 [docker image](https://github.com/lacti/docker-node-env)를 만들어둡니다.
 
-[ntt](https://github.com/lacti/yyt/blob/master/8/images/ntt.png)
+![ntt](https://github.com/lacti/yyt/blob/master/8/images/ntt_result.png)
 
 #### 후기
 
