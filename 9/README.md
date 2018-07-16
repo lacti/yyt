@@ -76,6 +76,11 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
 - 아쉬운점: 시간이 상당히 많다고 자만했지만 2시간만에 체력 고갈로, 오히려 시간이 부족하여 alert로 결과창을 대신함.... (쩝)
 - 다음을 기약하며: slither.io처럼 게임 출시 할 때 까지 완성도를 높이겠다.
 
+## TinyGBT ( https://github.com/lancifollia/tinygbt )
+
+[Gradient Boosted Tree 알고리즘](https://xgboost.readthedocs.io/en/latest/model.html)을 python으로 쉽게 짜봤습니다.
+기존 구현체인 [LightGBM](https://github.com/Microsoft/LightGBM)과 간단하게 정확도를 비교해봤는데, (속도는 엄청 느리지만) 비슷한 parameter 셋팅에서 비슷한 에러(RMSE)가 나왔습니다.
+
 ---
 
 ### TBD
