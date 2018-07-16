@@ -59,6 +59,24 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
 ---
 
 # Result
+## Space Battle (http://bash.style)
+
+![poster](https://i.ytimg.com/vi/ap27AwqOwsc/maxresdefault.jpg)
+<_인게임으로 계획된 머릿속의 이미지_>
+
+- 시작전 포부: 나 이런 사람이야
+- 목표: 어릴때 열심히 했던 Unity3D의 경험을 그냥 묵히기 아쉬워서 시작한 엔진만들기, (_미완성된_) 엔진은 있으니까 게임을 하나라도 제대로 만들어보자.
+- 계획된 기능
+  - 스플래시 스크린
+  - 아웃게임 (리더보드, 게임시작 버튼, 현재 접속자 수, 방 고르기, 닉네임 고르기)
+  - 인게임
+  - 결과창
+  - 저작자 소개 (like *star wars ending credit* )
+- 사용된 기술: HTML5 Canvas, Javascript, WebSocket
+- 아쉬운점: 시간이 상당히 많다고 자만했지만 2시간만에 체력 고갈로, 오히려 시간이 부족하여 alert로 결과창을 대신함.... (쩝)
+- 다음을 기약하며: slither.io처럼 게임 출시 할 때 까지 완성도를 높이겠다.
+
+---
 
 ### TBD
 
