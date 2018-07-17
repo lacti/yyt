@@ -84,6 +84,11 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
   * 코드가 더 필요하지는 않겠지만 Instance의 Scaling을 설정하지는 못함
   * GameLift로 Scalable한 Relay Server를 구현하고 나니, MQ Cluster만으로 할 수 있다라는 [lacti](https://github.com/lacti)님의 제안보다 나은 것이 없는 상황이 되었으나, Relay Server를 직접 코드 레벨에서 Customize할 수 있다는 점을 주안점으로 삼고 GameLift를 이용하는 방향을 유지해볼 생각임
 
+## TinyGBT ( https://github.com/lancifollia/tinygbt )
+
+[Gradient Boosted Tree 알고리즘](https://xgboost.readthedocs.io/en/latest/model.html)을 python으로 쉽게 짜봤습니다.
+기존 구현체인 [LightGBM](https://github.com/Microsoft/LightGBM)과 간단하게 정확도를 비교해봤는데, (속도는 엄청 느리지만) 비슷한 parameter 셋팅에서 비슷한 에러(RMSE)가 나왔습니다.
+
 ---
 
 ### TBD
