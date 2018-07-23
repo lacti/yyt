@@ -76,13 +76,12 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
 - 아쉬운점: 시간이 상당히 많다고 자만했지만 2시간만에 체력 고갈로, 오히려 시간이 부족하여 alert로 결과창을 대신함.... (쩝)
 - 다음을 기약하며: slither.io처럼 게임 출시 할 때 까지 완성도를 높이겠다.
 
-## ICBM
+## ICBM (https://github.com/dplusic/ideal-computing-breaking-machine/releases/tag/yyt9)
 
-* https://github.com/dplusic/ideal-computing-breaking-machine/releases/tag/yyt9
-  * 기존의 ICBM에 GameLift를 이식하는 작업을 진행
-  * GameSession의 생성, Player의 진입, GameSession의 종료의 Life Cycle을 구현
-  * 코드가 더 필요하지는 않겠지만 Instance의 Scaling을 설정하지는 못함
-  * GameLift로 Scalable한 Relay Server를 구현하고 나니, MQ Cluster만으로 할 수 있다라는 [lacti](https://github.com/lacti)님의 제안보다 나은 것이 없는 상황이 되었으나, Relay Server를 직접 코드 레벨에서 Customize할 수 있다는 점을 주안점으로 삼고 GameLift를 이용하는 방향을 유지해볼 생각임
+ * 기존의 ICBM에 GameLift를 이식하는 작업을 진행
+ * GameSession의 생성, Player의 진입, GameSession의 종료의 Life Cycle을 구현
+ * 코드가 더 필요하지는 않겠지만 Instance의 Scaling을 설정하지는 못함
+ * GameLift로 Scalable한 Relay Server를 구현하고 나니, MQ Cluster만으로 할 수 있다라는 [lacti](https://github.com/lacti)님의 제안보다 나은 것이 없는 상황이 되었으나, Relay Server를 직접 코드 레벨에서 Customize할 수 있다는 점을 주안점으로 삼고 GameLift를 이용하는 방향을 유지해볼 생각임
 
 ## TinyGBT ( https://github.com/lancifollia/tinygbt )
 
