@@ -61,7 +61,7 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
 # Result
 ## Space Battle (http://bash.style)
 
-![poster](https://i.ytimg.com/vi/ap27AwqOwsc/maxresdefault.jpg)
+![Space Battle](https://i.ytimg.com/vi/ap27AwqOwsc/maxresdefault.jpg)
 <_인게임으로 계획된 머릿속의 이미지_>
 
 - 시작전 포부: 나 이런 사람이야
@@ -103,11 +103,39 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
   * 한 점이 커지면 답이 없어짐(하지만 누군가 한명은 커짐)
   * 맵을 더 크게, 클라이언트에 맞게 보여주는 기능
 
----
+## 가즈아 (gazzzza)
 
-### TBD
+* [지난 8회 가즈아](https://github.com/lacti/yyt/tree/master/8#%EA%B0%80%EC%A6%88%EC%95%84-httpsgithubcomhyunjong-leegazzzza) 를 이어하며 완성도를 높이기 위해 작업
+![Gazzzza](https://github.com/lacti/yyt/blob/master/9/images/gazzzza.png)
+<_일단은 대충 완성된 가즈아의 화면_>
 
----
+* 기존에 없던 기능 추가
+  * MP 개념을 추가하여 항상 방어상태가 되지 않도록 처리
+  * 각 턴에 MP가 +3이 되도록 추가
+* 이번 9회차의 목표는 완성 (COMPLETION) 이었던 만큼 팀을 이루어 작업 진행
+  * 기획의 완성도
+    * 지난번 게임은 기획적 완성도가 낮아 재미가 없었다고 판단하여 알고 있는 기획자 2명과 논의한 피드백을 바탕으로 구현 목표를 세움
+  * 클라의 완성도
+    * 장고로 대충 만든 웹사이트말고 제대로 된 클라이언트가 나오길 원해서 김거엽님과 팀을 이루어 작업
+* 개인 소감
+  * 현종
+    * 오랜만에 집중도 있게 개발할 수 있어서 의미있는 모임이었다고 판단
+    * 기획을 넣으면 재미있지 않을까 했지만 핵노잼
+    * 김거엽과 팀을 이뤄 작업하다보니 Gaming on AWS 1회때의 추억이 떠오름
+    * 완성도를 높이면 어떻게 1등할 수 있지 않을까 했지만 굇수들의 출현으로 무산
+  * 거엽
+    * TBD
+
+
+## 총론
+* 매우 유익한 9회차 모임
+* 멤버가 조금 더 늘어나면 공개 모집으로 진행해도 재밌을 듯
+* 현재까지 진행된 잉여톤을 AWS 측에 공유해서 꾸준히 진행하고 있음을 어필해도 괜찮아보임
+* 최종 스탠딩
+![Final Standing](https://github.com/lacti/yyt/blob/master/9/images/final_standing.jpg)
+
+
+## 참고
 
 대체 이것이 무엇인지에 대한 궁금증은 [README](https://github.com/lacti/yyt/blob/master/README.md)에서 어느 정도 해소가 될 것으로 기대합니다.
 만약 이 행사에 처음 접근했다면, 위 글도 참고 부탁 드립니다.
