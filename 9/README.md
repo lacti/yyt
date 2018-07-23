@@ -89,6 +89,19 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
 [Gradient Boosted Tree 알고리즘](https://xgboost.readthedocs.io/en/latest/model.html)을 python으로 쉽게 짜봤습니다.
 기존 구현체인 [LightGBM](https://github.com/Microsoft/LightGBM)과 간단하게 정확도를 비교해봤는데, (속도는 엄청 느리지만) 비슷한 parameter 셋팅에서 비슷한 에러(RMSE)가 나왔습니다.
 
+## move move move ( https://github.com/noasax/yyt9 )
+![poster](https://i.imgur.com/Zz0TgGx.png)
+* 나보다 작으면 지워버리고 크면 도망가라!
+  * 움직일수록 크기가 커집니다
+  * 크기가 커질수록 속도는 느립니다
+  * 충돌시 작은(약한)자는 사라집니다
+* 목적
+  * 계속 움직이는 잉여력 넘치는 자가 승리하는 게임
+* 개발
+  * node js 서버에서 모든 상태를 통제하고 web socket과 canvas를 사용합니다.
+* 문제점/개선점
+  * 한 점이 커지면 답이 없어짐(하지만 누군가 한명은 커짐)
+  * 맵을 더 크게, 클라이언트에 맞게 보여주는 기능
 
 ## 가즈아 (gazzzza)
 
