@@ -88,7 +88,7 @@ _물론 가볍게 즐기는 것도 매우 중요하기 때문에, 와서 재미�
 
 ## TinyGBT ( https://github.com/lancifollia/tinygbt )
 
-[Gradient Boosted Tree 알고리즘](https://xgboost.readthedocs.io/en/latest/model.html)을 python으로 쉽게 짜봤습니다.
+[Gradient Boosted Tree 알고리즘](https://xgboost.readthedocs.io/en/latest/tutorials/model.html)을 python으로 쉽게 짜봤습니다.
 기존 구현체인 [LightGBM](https://github.com/Microsoft/LightGBM)과 간단하게 정확도를 비교해봤는데, (속도는 엄청 느리지만) 비슷한 parameter 셋팅에서 비슷한 에러(RMSE)가 나왔습니다.
 
 ## move move move ( https://github.com/noasax/yyt9 )
