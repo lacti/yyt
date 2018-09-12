@@ -98,7 +98,8 @@
     * 최종 결과물에 버그가 발생해서 모두가 함께 플레이해보지 못한 점은 무척 아쉬운 부분
   * 진용
     * TBU
-  
+
+## https://github.com/dplusic/friendly-winner/tree/yyt10
 
 ---
 
