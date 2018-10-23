@@ -1,4 +1,4 @@
-![poster](https://github.com/lacti/yyt/blob/master/10/poster.png)
+![poster](https://github.com/lacti/yyt/blob/master/10.5/poster.png)
 
 
 # Summary
