@@ -27,7 +27,7 @@
 
 ## Register
 
-슬랙의 잉여톤 채널에 참가 의사를 밝혀주세요.
+[구글폼에 참가 신청서 작성 부탁 드립니다.](https://goo.gl/forms/WZKEhUBFtVpqtIY73) ~~슬랙의 잉여톤 채널에 참가 의사를 밝혀주세요.~~
 
 
 ## Schedule
